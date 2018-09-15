@@ -1,0 +1,53 @@
+/* .col- (extra small devices - screen width less than 576px)
+.col-sm- (small devices - screen width equal to or greater than 576px)
+.col-md- (medium devices - screen width equal to or greater than 768px)
+.col-lg- (large devices - screen width equal to or greater than 992px)
+.col-xl- (xlarge devices - screen width equal to or greater than 1200px) */
+
+/* Custom-scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #660000;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px white inset;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #000;
+}
+
+
+
+@media screen and (max-width:768px){
+  img{width:100%;height:400px;}
+  .container-fluid .row{padding:20px; }
+  .container-fluid .indicator-row{padding:0px; }
+  .Arrow{display: none;}
+  .carousel-caption h1{
+    font-size:250%;
+    text-transform: uppercase;
+    color: white;
+    text-shadow:1px 1px 5px red;
+    font-weight: 500;
+  }
+
+  .carousel-caption h4{
+    font-weight: 500;
+    font-size: 100%;
+    text-shadow: 1px 1px 10px #000;
+    color:white;
+  }
+
+}
